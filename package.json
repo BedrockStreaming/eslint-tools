@@ -1,0 +1,14 @@
+{
+  "description": "M6 WEB's ESLint packages",
+  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
+  "scripts": {
+    "bootstrap": "lerna bootstrap --npm-client=yarn"
+  },
+  "devDependencies": {
+    "lerna": "^2.9.0"
+  }
+}
