@@ -3,40 +3,30 @@
 ## Setup
 
 ```shell
-npm install eslint-config-m6web
+npm install @m6web/eslint-config
 ```
 
-or 
+or
 
 ```shell
-yarn add eslint-config-m6web
+yarn add @m6web/eslint-config
 ```
 
 ## Usage
 
 Extends the configuration in the `.eslintrc` file at the root of your project.
+
 ```json
 {
-  "extends": "m6web"
+  "extends": "@m6web"
 }
 ```
 
 Here are some envs you can add depending your project:
+
 ```json
 "env": {
   "browser" : true,
   "jasmine": true
 }
-```
-
-## Test
-
-```shell
-yarn lint
-```
-
-## Release
-
-```shell
-yarn release -- <version>
 ```
