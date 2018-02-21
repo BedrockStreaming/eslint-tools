@@ -1,6 +1,6 @@
 {
   "name": "@m6web/eslint-plugin",
-  "version": "1.4.0",
+  "version": "2.0.0-beta.1",
   "description": "Plugin for eslint and prettier used in m6web projects",
   "repository": {
     "type": "git",
@@ -12,7 +12,7 @@
     "access": "public"
   },
   "dependencies": {
-    "@m6web/eslint-config": "1.2.0",
+    "@m6web/eslint-config": "2.0.0-beta.1",
     "eslint": "4.18.1",
     "eslint-config-prettier": "2.9.0",
     "eslint-plugin-prettier": "2.6.0",
