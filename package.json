@@ -7,8 +7,7 @@
   ],
   "scripts": {
     "lint": "eslint --cache packages/",
-    "format": "prettier-eslint --write 'packages/**/*.js'",
-    "format:dry-run": "prettier-eslint --list-different 'packages/**/*.js'"
+    "format": "prettier-eslint --write 'packages/**/*.js'"
   },
   "devDependencies": {
     "lerna": "^2.9.0"

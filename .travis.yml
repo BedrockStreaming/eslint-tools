@@ -1,9 +1,8 @@
 language: node_js
 node_js:
- - "7"
+ - "stable"
 
 cache: yarn
 
 script:
- - yarn run lint
-
+ - yarn lint
