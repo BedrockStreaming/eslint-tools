@@ -5,7 +5,15 @@
   "workspaces": [
     "packages/*"
   ],
+  "scripts": {
+    "lint": "eslint --cache packages/",
+    "format": "prettier-eslint --write 'packages/**/*.js'",
+    "format:dry-run": "prettier-eslint --list-different 'packages/**/*.js'"
+  },
   "devDependencies": {
     "lerna": "^2.9.0"
+  },
+  "dependencies": {
+    "@m6web/eslint-plugin": "^2.0.0-beta.1"
   }
 }

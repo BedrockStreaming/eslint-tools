@@ -1,15 +1,8 @@
 module.exports = {
   configs: {
     default: {
-      extends: [
-        '@m6web',
-        'prettier',
-        'prettier/react',
-      ],
-      plugins: [
-        'react',
-        'prettier',
-      ],
+      extends: ['@m6web', 'prettier', 'prettier/react'],
+      plugins: ['react', 'prettier'],
       rules: {
         'prettier/prettier': [
           'error',
@@ -17,9 +10,9 @@ module.exports = {
             singleQuote: true,
             printWidth: 120,
             trailingComma: 'all',
-          }
-        ]
-      }
-    }
-  }
+          },
+        ],
+      },
+    },
+  },
 };
