@@ -10,9 +10,7 @@
     "format": "prettier-eslint --write 'packages/**/*.js'"
   },
   "devDependencies": {
+    "@m6web/eslint-plugin": "^2.0.0-beta.1",
     "lerna": "^2.9.0"
-  },
-  "dependencies": {
-    "@m6web/eslint-plugin": "^2.0.0-beta.1"
   }
 }
