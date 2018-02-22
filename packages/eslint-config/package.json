@@ -8,12 +8,8 @@
   },
   "author": "M6 WEB",
   "license": "MIT",
-  "main": "index.js",
   "publishConfig": {
     "access": "public"
-  },
-  "scripts": {
-    "lint": "eslint -c index.js test.js"
   },
   "dependencies": {
     "eslint": "4.18.1",
