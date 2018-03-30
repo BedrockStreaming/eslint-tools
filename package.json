@@ -11,6 +11,6 @@
   },
   "devDependencies": {
     "@m6web/eslint-plugin": "^2.0.0-beta.1",
-    "lerna": "^2.9.0"
+    "lerna": "^2.9.1"
   }
 }
