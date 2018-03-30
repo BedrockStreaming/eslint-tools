@@ -1,4 +1,5 @@
-# Eslint-plugin-m6web-tools
+# @m6web/eslint-plugin
+
 The purpose of this package is simple, simplify the configuration of eslint and prettier in our projects.
 
 It provides:

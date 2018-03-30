@@ -1,4 +1,4 @@
-![build status](https://travis-ci.org/M6Web/eslint-config-m6web.svg?branch=master)
+# @m6web/eslint-config
 
 ## Setup
 
