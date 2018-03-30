@@ -61,5 +61,8 @@ module.exports = {
     // TODO: remove these rules when next version of Airbnb config will be released
     'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
     'react/no-unused-prop-types': ['error', { skipShapeProps: true }],
+
+    // No if(!foo) {} else {} and things like this
+    'no-negated-condition': 'error',
   },
 };
