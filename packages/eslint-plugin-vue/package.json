@@ -1,0 +1,26 @@
+{
+  "name": "@m6web/eslint-plugin-vue",
+  "version": "2.0.0",
+  "description": "Plugin for eslint and prettier used in m6web projects",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/M6Web/eslint-tools"
+  },
+  "author": "M6 WEB",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  },
+  "dependencies": {
+    "@m6web/eslint-config": "^2.0.0",
+    "eslint": "4.19.1",
+    "eslint-config-prettier": "2.9.0",
+    "eslint-plugin-import": "2.11.0",
+    "eslint-plugin-jsx-a11y": "6.0.3",
+    "eslint-plugin-prettier": "2.6.0",
+    "eslint-plugin-react": "7.7.0",
+    "eslint-plugin-vue": "^4.4.0",
+    "prettier": "1.12.0",
+    "prettier-eslint-cli": "4.7.1"
+  }
+}
