@@ -1,6 +1,5 @@
 module.exports = {
   extends: ['airbnb'],
-  plugins: ['react'],
   env: {
     node: true,
   },
@@ -54,13 +53,6 @@ module.exports = {
         enforceForRenamedProperties: false,
       },
     ],
-
-    // allow ".js" to be a valid extension for JSX files
-    'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
-
-    // TODO: remove these rules when next version of Airbnb config will be released
-    'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
-    'react/no-unused-prop-types': ['error', { skipShapeProps: true }],
 
     // No if(!foo) {} else {} and things like this
     'no-negated-condition': 'error',
