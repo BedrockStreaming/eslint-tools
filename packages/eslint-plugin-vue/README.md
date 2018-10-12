@@ -13,13 +13,13 @@ With that come some little changes from the default config of [eslint-config-air
 ## Setup
 
 ```shell
-npm install --dev @m6web/eslint-plugin
+npm install --dev @m6web/eslint-plugin-vue babel-eslint
 ```
 
 or
 
 ```shell
-yarn add --dev @m6web/eslint-plugin
+yarn add --dev @m6web/eslint-plugin-vue babel-eslint
 ```
 
 Then you need to add the plugin in the `.eslintrc` file of your project. For that create a `.eslintrc` and add the following lines:
