@@ -2,7 +2,7 @@ module.exports = {
   configs: {
     default: {
       extends: ['airbnb', '@m6web', 'prettier', 'prettier/react'],
-      plugins: ['react', 'prettier'],
+      plugins: ['react', 'prettier', 'react-hooks'],
       rules: {
         'prettier/prettier': [
           'error',
@@ -17,6 +17,9 @@ module.exports = {
         'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
         // prefer "<></>" syntax over <React.Fragment></React.Fragment>
         'react/jsx-fragments': ['error', 'syntax'],
+
+        'react-hooks/rules-of-hooks': 'error',
+        'react-hooks/exhaustive-deps': 'warn',
 
         // TODO: remove these rules when next version of Airbnb config will be released
         'react/prefer-stateless-function': ['error', { ignorePureComponents: true }],
