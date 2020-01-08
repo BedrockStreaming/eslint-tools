@@ -12,8 +12,8 @@
     "access": "public"
   },
   "resolutions": {
-    "lodash": "4.17.12",
-    "eslint-utils": "1.4.1"
+    "eslint-utils": "1.4.1",
+    "lodash.merge": "4.6.2"
   },
   "dependencies": {
     "@m6web/eslint-config": "^3.3.0",
