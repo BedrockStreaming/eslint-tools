@@ -12,8 +12,6 @@
     "access": "public"
   },
   "resolutions": {
-    "lodash": "4.17.12",
-    "lodash.merge": "4.6.2",
     "eslint-utils": "1.4.1"
   },
   "dependencies": {
