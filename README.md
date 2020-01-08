@@ -12,3 +12,6 @@ Eslint and prettier package from M6Web, see documentation [here](./packages/esli
 ## @m6web/eslint-plugin-vue
 
 Eslint and prettier package from M6Web, see documentation [here](./packages/eslint-plugin-vue/README.md).
+
+## Publish
+*** *WIP* ***
