@@ -7,6 +7,7 @@ It provides:
 - [@m6web/eslint-config] which inherits from [eslint-config-airbnb]
 - [eslint] itself
 - [prettier] with all the plugins needed to work with eslint
+- [eslint-plugin-react-hooks]
 
 With that come some little changes from the default config of [eslint-config-airbnb] and [prettier] that you can find in [index.js](index.js) file and [here].
 
@@ -63,4 +64,5 @@ yarn prettier-eslint -- --write 'src/**/*.js'
 [prettier]: https://github.com/prettier/prettier
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
 [@m6web/eslint-config]: https://github.com/M6Web/eslint-tools/tree/master/packages/eslint-config
+[eslint-plugin-react-hooks]: https://www.npmjs.com/package/eslint-plugin-react-hooks
 [here](https://github.com/M6Web/eslint-tools/blob/master/packages/eslint-config/index.js)
