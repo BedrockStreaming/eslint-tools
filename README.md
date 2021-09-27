@@ -3,15 +3,15 @@ Bedrock Streaming's ESLint packages.
 
 ## @bedrockstreaming/eslint-config
 
-Eslint config from BedrockStreaming, see documentation [here](./packages/eslint-config/README.md).
+Eslint config from Bedrock Streaming, see documentation [here](./packages/eslint-config/README.md).
 
 ## @bedrockstreaming/eslint-plugin-react
 
-Eslint and prettier package from BedrockStreaming, see documentation [here](./packages/eslint-plugin-react/README.md).
+Eslint and prettier package from Bedrock Streaming, see documentation [here](./packages/eslint-plugin-react/README.md).
 
 ## @bedrockstreaming/eslint-plugin-vue
 
-Eslint and prettier package from BedrockStreaming, see documentation [here](./packages/eslint-plugin-vue/README.md).
+Eslint and prettier package from Bedrock Streaming, see documentation [here](./packages/eslint-plugin-vue/README.md).
 
 ## Publishing packages
 
