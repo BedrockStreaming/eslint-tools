@@ -1,7 +1,7 @@
 module.exports = {
   configs: {
     default: {
-      extends: ['airbnb', '@m6web', 'prettier', 'prettier/react'],
+      extends: ['airbnb', '@bedrockstreaming', 'prettier', 'prettier/react'],
       plugins: ['react', 'prettier', 'react-hooks'],
       rules: {
         'prettier/prettier': [

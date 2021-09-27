@@ -1,10 +1,10 @@
-# @m6web/eslint-plugin-vue
+# @bedrockstreaming/eslint-plugin-vue
 
 The purpose of this package is simple, simplify the configuration of eslint and prettier in our projects.
 
 It provides:
 
-- [@m6web/eslint-config] which inherits from [eslint-config-airbnb]
+- [@bedrockstreaming/eslint-config] which inherits from [eslint-config-airbnb]
 - [eslint] itself
 - [prettier] with all the plugins needed to work with eslint
 
@@ -13,20 +13,20 @@ With that come some little changes from the default config of [eslint-config-air
 ## Setup
 
 ```shell
-npm install --dev @m6web/eslint-plugin-vue babel-eslint
+npm install --dev @bedrockstreaming/eslint-plugin-vue babel-eslint
 ```
 
 or
 
 ```shell
-yarn add --dev @m6web/eslint-plugin-vue babel-eslint
+yarn add --dev @bedrockstreaming/eslint-plugin-vue babel-eslint
 ```
 
 Then you need to add the plugin in the `.eslintrc` file of your project. For that create a `.eslintrc` and add the following lines:
 
 ```json
 {
-  "extends": "plugin:@m6web/eslint-plugin-vue/default",
+  "extends": "plugin:@bedrockstreaming/eslint-plugin-vue/default",
 }
 ```
 
@@ -62,5 +62,5 @@ yarn prettier-eslint -- --write 'src/**/*.js'
 [eslint]: https://eslint.org/
 [prettier]: https://github.com/prettier/prettier
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
-[@m6web/eslint-config]: https://github.com/M6Web/eslint-tools/tree/master/packages/eslint-config
-[here](https://github.com/M6Web/eslint-tools/blob/master/packages/eslint-config/index.js)
+[@bedrockstreaming/eslint-config]: https://github.com/BedrockStreaming/eslint-tools/tree/master/packages/eslint-config
+[here](https://github.com/BedrockStreaming/eslint-tools/blob/master/packages/eslint-config/index.js)
