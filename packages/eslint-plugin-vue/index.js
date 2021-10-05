@@ -1,7 +1,7 @@
 module.exports = {
   configs: {
     default: {
-      extends: ['@m6web', 'prettier', 'plugin:vue/recommended'],
+      extends: ['@bedrockstreaming', 'prettier', 'plugin:vue/recommended'],
       plugins: ['prettier', 'vue'],
       parserOptions: {
         parser: 'babel-eslint',
