@@ -1,10 +1,10 @@
-# @m6web/eslint-plugin
+# @bedrockstreaming/eslint-plugin
 
 The purpose of this package is simple, simplify the configuration of eslint and prettier in our projects.
 
 It provides:
 
-- [@m6web/eslint-config] which inherits from [eslint-config-airbnb]
+- [@bedrockstreaming/eslint-config] which inherits from [eslint-config-airbnb]
 - [eslint] itself
 - [prettier] with all the plugins needed to work with eslint
 - [eslint-plugin-react-hooks]
@@ -14,20 +14,20 @@ With that come some little changes from the default config of [eslint-config-air
 ## Setup
 
 ```shell
-npm install --dev @m6web/eslint-plugin
+npm install --dev @bedrockstreaming/eslint-plugin
 ```
 
 or
 
 ```shell
-yarn add --dev @m6web/eslint-plugin
+yarn add --dev @bedrockstreaming/eslint-plugin
 ```
 
 Then you need to add the plugin in the `.eslintrc` file of your project. For that create a `.eslintrc` and add the following lines:
 
 ```json
 {
-  "extends": "plugin:@m6web/default",
+  "extends": "plugin:@bedrockstreaming/default",
 }
 ```
 
@@ -63,6 +63,6 @@ yarn prettier-eslint -- --write 'src/**/*.js'
 [eslint]: https://eslint.org/
 [prettier]: https://github.com/prettier/prettier
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
-[@m6web/eslint-config]: https://github.com/M6Web/eslint-tools/tree/master/packages/eslint-config
+[@bedrockstreaming/eslint-config]: https://github.com/BedrockStreaming/eslint-tools/tree/master/packages/eslint-config
 [eslint-plugin-react-hooks]: https://www.npmjs.com/package/eslint-plugin-react-hooks
-[here](https://github.com/M6Web/eslint-tools/blob/master/packages/eslint-config/index.js)
+[here](https://github.com/BedrockStreaming/eslint-tools/blob/master/packages/eslint-config/index.js)

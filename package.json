@@ -1,5 +1,5 @@
 {
-  "description": "M6 WEB's ESLint packages",
+  "description": "Bedrock Streaming's ESLint packages",
   "license": "MIT",
   "private": true,
   "workspaces": [

@@ -1,12 +1,12 @@
 {
-  "name": "@m6web/eslint-config",
+  "name": "@bedrockstreaming/eslint-config",
   "version": "3.5.0",
   "description": "",
   "repository": {
     "type": "git",
-    "url": "https://github.com/M6Web/eslint-tools"
+    "url": "https://github.com/BedrockStreaming/eslint-tools"
   },
-  "author": "M6 WEB",
+  "author": "Bedrock Streaming",
   "license": "MIT",
   "publishConfig": {
     "access": "public"
