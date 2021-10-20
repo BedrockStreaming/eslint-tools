@@ -6,8 +6,8 @@
     "packages/*"
   ],
   "scripts": {
-    "lint": "eslint --cache packages/",
-    "format": "prettier-eslint --write 'packages/**/*.js'"
+    "lint": "eslint .",
+    "format": "prettier-eslint --write '**/*.{js,json,md,yml}'"
   },
   "resolutions": {
     "lodash": "4.17.12",
