@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier-eslint --write '**/*.{js,json,md,yml}'"
+    "format": "prettier-eslint --write '**/*.{js,json,md,yml}'",
+    "prepare": "husky install"
   },
   "resolutions": {
     "lodash": "4.17.12",
@@ -18,6 +19,18 @@
     "handlebars": "4.5.3"
   },
   "devDependencies": {
-    "lerna": "3.14.0"
+    "husky": "7.0.2",
+    "lerna": "3.14.0",
+    "lint-staged": "11.2.3"
+  },
+  "lint-staged": {
+    "*.{js,jsx,ts,tsx}": [
+      "eslint --fix",
+      "git add"
+    ],
+    "*.{js,json,md,yml}": [
+      "prettier-eslint --write --ignore-unknown",
+      "git add"
+    ]
   }
 }
