@@ -1,9 +1,19 @@
 module.exports = {
-  extends: ['airbnb-base'],
+  extends: ['airbnb-base', 'prettier'],
+  plugins: ['prettier'],
   env: {
     node: true,
   },
   rules: {
+    'prettier/prettier': [
+      'error',
+      {
+        singleQuote: true,
+        printWidth: 120,
+        trailingComma: 'all',
+      },
+    ],
+
     // use "_this" as a  variable to pass "this" instance if it's needed
     'consistent-this': ['error', '_this'],
 

@@ -1,7 +1,7 @@
 {
   "name": "@bedrockstreaming/eslint-plugin-vue",
   "version": "3.5.0",
-  "description": "Plugin for eslint and prettier used in Bedrock Streaming's projects",
+  "description": "Plugin for eslint used in Bedrock Streaming's projects",
   "repository": {
     "type": "git",
     "url": "https://github.com/BedrockStreaming/eslint-tools"
@@ -17,12 +17,8 @@
   "dependencies": {
     "@bedrockstreaming/eslint-config": "^3.5.0",
     "eslint": "^7.32.0",
-    "eslint-config-prettier": "^8.3.0",
     "eslint-plugin-import": "^2.25.2",
-    "eslint-plugin-prettier": "^4.0.0",
-    "eslint-plugin-vue": "^7.20.0",
-    "prettier": "^2.4.1",
-    "prettier-eslint-cli": "^5.0.1"
+    "eslint-plugin-vue": "^7.20.0"
   },
   "peerDependencies": {
     "babel-eslint": "^10.0.1"
