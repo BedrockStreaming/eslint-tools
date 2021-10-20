@@ -1,3 +1,5 @@
+const prettierConfig = require('@bedrockstreaming/prettier-config');
+
 module.exports = {
   extends: ['airbnb-base', 'prettier'],
   plugins: ['prettier'],
@@ -5,14 +7,7 @@ module.exports = {
     node: true,
   },
   rules: {
-    'prettier/prettier': [
-      'error',
-      {
-        singleQuote: true,
-        printWidth: 120,
-        trailingComma: 'all',
-      },
-    ],
+    'prettier/prettier': ['error', prettierConfig],
 
     // use "_this" as a  variable to pass "this" instance if it's needed
     'consistent-this': ['error', '_this'],

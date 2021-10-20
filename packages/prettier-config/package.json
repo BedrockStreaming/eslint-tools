@@ -1,0 +1,14 @@
+{
+  "name": "@bedrockstreaming/prettier-config",
+  "version": "3.5.0",
+  "description": "Bedrock Streaming's Prettier config",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/BedrockStreaming/prettier-tools"
+  },
+  "author": "Bedrock Streaming",
+  "license": "MIT",
+  "publishConfig": {
+    "access": "public"
+  }
+}
