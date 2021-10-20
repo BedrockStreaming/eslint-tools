@@ -1,18 +1,9 @@
 module.exports = {
   configs: {
     default: {
-      extends: ['airbnb', '@bedrockstreaming', 'prettier'],
-      plugins: ['react', 'prettier', 'react-hooks'],
+      extends: ['airbnb', '@bedrockstreaming'],
+      plugins: ['react', 'react-hooks'],
       rules: {
-        'prettier/prettier': [
-          'error',
-          {
-            singleQuote: true,
-            printWidth: 120,
-            trailingComma: 'all',
-          },
-        ],
-
         // allow ".js" to be a valid extension for JSX files
         'react/jsx-filename-extension': ['error', { extensions: ['.js', '.jsx'] }],
         // prefer "<></>" syntax over <React.Fragment></React.Fragment>

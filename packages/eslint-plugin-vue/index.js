@@ -1,22 +1,14 @@
 module.exports = {
   configs: {
     default: {
-      extends: ['@bedrockstreaming', 'prettier', 'plugin:vue/recommended'],
-      plugins: ['prettier', 'vue'],
+      extends: ['@bedrockstreaming', 'plugin:vue/recommended'],
+      plugins: ['vue'],
       parserOptions: {
         parser: 'babel-eslint',
         ecmaVersion: 2017,
         sourceType: 'module',
       },
       rules: {
-        'prettier/prettier': [
-          'error',
-          {
-            singleQuote: true,
-            printWidth: 120,
-            trailingComma: 'all',
-          },
-        ],
         'vue/max-attributes-per-line': [
           2,
           {
