@@ -1,4 +1,5 @@
 # eslint-tools
+
 Bedrock Streaming's ESLint packages.
 
 ## @bedrockstreaming/eslint-config
@@ -16,6 +17,7 @@ Eslint and prettier package from Bedrock Streaming, see documentation [here](./p
 ## Publishing packages
 
 At the root of the project :
+
 - `npm login`
 - `yarn lerna publish`
 

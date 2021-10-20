@@ -26,7 +26,7 @@ Then you need to add the plugin in the `.eslintrc` file of your project. For tha
 
 ```json
 {
-  "extends": "plugin:@bedrockstreaming/eslint-plugin-vue/default",
+  "extends": "plugin:@bedrockstreaming/eslint-plugin-vue/default"
 }
 ```
 
@@ -50,11 +50,13 @@ If you want, you can add the jest support with the following lines:
 ## Usage
 
 Lint your code:
+
 ```shell
 yarn eslint src/
 ```
 
 Rewrite your code, the right way :smiling_imp::
+
 ```shell
 yarn prettier-eslint -- --write 'src/**/*.js'
 ```
@@ -63,4 +65,5 @@ yarn prettier-eslint -- --write 'src/**/*.js'
 [prettier]: https://github.com/prettier/prettier
 [eslint-config-airbnb]: https://github.com/airbnb/javascript
 [@bedrockstreaming/eslint-config]: https://github.com/BedrockStreaming/eslint-tools/tree/master/packages/eslint-config
+
 [here](https://github.com/BedrockStreaming/eslint-tools/blob/master/packages/eslint-config/index.js)
