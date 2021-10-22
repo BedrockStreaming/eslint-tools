@@ -1,4 +1,4 @@
-# @bedrockstreaming/eslint-plugin
+# @bedrockstreaming/eslint-config-react
 
 The purpose of this package is simple, simplify the configuration of eslint and prettier in our projects.
 
@@ -14,20 +14,20 @@ With that come some little changes from the default config of [eslint-config-air
 ## Setup
 
 ```shell
-npm install --dev @bedrockstreaming/eslint-plugin
+npm install --dev @bedrockstreaming/eslint-config-react
 ```
 
 or
 
 ```shell
-yarn add --dev @bedrockstreaming/eslint-plugin
+yarn add --dev @bedrockstreaming/eslint-config-react
 ```
 
-Then you need to add the plugin in the `.eslintrc` file of your project. For that create a `.eslintrc` and add the following lines:
+Then you need to add the config in the `.eslintrc` file of your project. For that create a `.eslintrc` and add the following lines:
 
 ```json
 {
-  "extends": "plugin:@bedrockstreaming/default"
+  "extends": "@bedrockstreaming/eslint-config-react"
 }
 ```
 
