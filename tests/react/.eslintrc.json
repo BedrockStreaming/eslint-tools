@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": ["@bedrockstreaming/react", "@bedrockstreaming/react/typescript"],
+  "parserOptions": { "project": "./tests/react/tsconfig.json" }
+}

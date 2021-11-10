@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": ["@bedrockstreaming", "@bedrockstreaming/eslint-config/typescript"],
+  "parserOptions": { "project": "./tests/base/tsconfig.json" }
+}
