@@ -3,12 +3,11 @@
   "license": "MIT",
   "private": true,
   "workspaces": [
-    "packages/*",
-    "tests/*"
+    "packages/*"
   ],
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier-eslint --write '**/*.{js,json,md,yml}'",
+    "format": "prettier-eslint --write '**/*.{js,json,md,yml,scss}'",
     "prepare": "husky install"
   },
   "resolutions": {
