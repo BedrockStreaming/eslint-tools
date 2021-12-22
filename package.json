@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier-eslint --write '**/*.{js,json,md,yml,scss}'",
+    "format": "prettier --write --ignore-unknown '**/*'",
+    "format-check": "prettier --check --ignore-unknown '**/*'",
     "prepare": "husky install"
   },
   "resolutions": {
@@ -27,12 +28,10 @@
   "prettier": "@bedrockstreaming/prettier-config",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "*.{js,json,md,yml}": [
-      "prettier-eslint --write --ignore-unknown",
-      "git add"
+      "prettier --write --ignore-unknown"
     ]
   }
 }
