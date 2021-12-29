@@ -1,0 +1,5 @@
+{
+  "root": true,
+  "extends": ["@bedrockstreaming/vue", "@bedrockstreaming/vue/typescript"],
+  "parserOptions": { "project": "./tests/vue/tsconfig.json" }
+}

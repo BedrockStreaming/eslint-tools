@@ -7,7 +7,8 @@
   ],
   "scripts": {
     "lint": "eslint .",
-    "format": "prettier-eslint --write '**/*.{js,json,md,yml}'",
+    "format": "prettier --write --ignore-unknown '**/*'",
+    "format-check": "prettier --check --ignore-unknown '**/*'",
     "prepare": "husky install"
   },
   "resolutions": {
@@ -21,17 +22,16 @@
   "devDependencies": {
     "husky": "7.0.2",
     "lerna": "3.14.0",
-    "lint-staged": "11.2.3"
+    "lint-staged": "11.2.3",
+    "typescript": "4.4.4"
   },
   "prettier": "@bedrockstreaming/prettier-config",
   "lint-staged": {
     "*.{js,jsx,ts,tsx}": [
-      "eslint --fix",
-      "git add"
+      "eslint --fix"
     ],
     "*.{js,json,md,yml}": [
-      "prettier-eslint --write --ignore-unknown",
-      "git add"
+      "prettier --write --ignore-unknown"
     ]
   }
 }
