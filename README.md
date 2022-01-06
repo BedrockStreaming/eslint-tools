@@ -111,8 +111,9 @@ At the root of the project:
 - `npm login`
 - `yarn lerna publish`
 
-> - :warning: Don't use `yarn lerna version`.
-> - :warning: Don't upgrade lerna above `3.14.0`, it causes lerna publish to fail.
+> :warning: Don't use `yarn lerna version`.
+
+> :warning: Don't upgrade lerna above `3.14.0`, it causes lerna publish to fail.
 
 [@bedrockstreaming/eslint-config]: packages/eslint-config/README.md
 [@bedrockstreaming/eslint-config-react]: packages/eslint-config-react/README.md
