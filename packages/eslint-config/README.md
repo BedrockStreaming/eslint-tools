@@ -1,15 +1,17 @@
 # @bedrockstreaming/eslint-config
 
-## Setup
+## Install
+
+### With NPM
 
 ```shell
-npm install @bedrockstreaming/eslint-config
+npm install --save-dev @bedrockstreaming/eslint-config
 ```
 
-or
+### With Yarn
 
 ```shell
-yarn add @bedrockstreaming/eslint-config
+yarn add -D @bedrockstreaming/eslint-config
 ```
 
 ## Usage
@@ -19,14 +21,5 @@ Extends the configuration in the `.eslintrc` file at the root of your project.
 ```json
 {
   "extends": "@bedrockstreaming"
-}
-```
-
-Here are some envs you can add depending your project:
-
-```json
-"env": {
-  "browser" : true,
-  "jasmine": true
 }
 ```
