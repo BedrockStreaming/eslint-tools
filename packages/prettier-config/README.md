@@ -1,6 +1,6 @@
 # @bedrockstreaming/prettier-config
 
-This package share BedrockStreaming's Prettier configuration independently.
+This package shares BedrockStreaming's Prettier configuration independently.
 
 We usually duplicate the Prettier configuration in every project that uses `@bedrockstreaming/eslint-config` by adding a `.prettierrc` file. This is especially necessary when using the Visual Studio Code plugin for Prettier which needs to know the configuration to properly format files. But `eslint-tools` directly embed Prettier's settings in the ESLint configuration preventing the plugin from getting it.
 
@@ -24,21 +24,13 @@ yarn add -D @bedrockstreaming/prettier-config
 
 ## Usage
 
-The simplest usage is by adding the following line in the `package.json` file.
+The simplest usage is to add the following line in the `package.json` file.
 
 ```json
 "prettier": "@bedrockstreaming/prettier-config",
 ```
 
-Extends the configuration in the `.eslintrc` file at the root of your project.
-
-```json
-{
-  "extends": "@bedrockstreaming/vue"
-}
-```
-
-This method does not offer a way to extend the configuration to overwrite some properties from the shared configuration. If you need to do that, import the file in a .prettierrc.js file and export the modifications, e.g:
+This method does not offer a way to extend the configuration to overwrite some properties from the shared configuration. If you need to do that, import the file in a `.prettierrc.js` file and export the modifications, e.g:
 
 ```js
 module.exports = {
