@@ -1,6 +1,6 @@
 {
   "name": "@bedrockstreaming/eslint-config-vue",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "description": "ESLint config used in Bedrock Streaming's Vue projects",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "eslint-utils": "1.4.1"
   },
   "dependencies": {
-    "@bedrockstreaming/eslint-config": "^3.5.0",
+    "@bedrockstreaming/eslint-config": "^4.0.0",
     "eslint": "^7.32.0",
     "eslint-plugin-import": "^2.25.2",
     "eslint-plugin-vue": "^7.20.0"

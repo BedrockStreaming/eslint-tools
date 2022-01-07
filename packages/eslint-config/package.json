@@ -1,6 +1,6 @@
 {
   "name": "@bedrockstreaming/eslint-config",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "description": "",
   "repository": {
     "type": "git",
@@ -15,7 +15,7 @@
     "eslint-utils": "1.4.1"
   },
   "dependencies": {
-    "@bedrockstreaming/prettier-config": "^3.5.0",
+    "@bedrockstreaming/prettier-config": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
     "eslint": "^7.32.0",

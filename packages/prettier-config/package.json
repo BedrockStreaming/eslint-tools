@@ -1,6 +1,6 @@
 {
   "name": "@bedrockstreaming/prettier-config",
-  "version": "3.5.0",
+  "version": "4.0.0",
   "description": "Bedrock Streaming's Prettier config",
   "repository": {
     "type": "git",
