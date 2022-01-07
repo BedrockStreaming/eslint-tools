@@ -24,16 +24,6 @@ It contains 4 packages:
 
 The version 4 of `eslint-tools` introduces two importants structural changes:
 
-- **From _M6 WEB_ to _Bedrock Streaming_**
-
-  In the wake of renaming stuff from "m6web" to "bedrock streaming", the packages are now available under the NPM scope @bedrockstreaming instead of @m6web. So...
-
-  `@m6web/eslint-config` becomes `@bedrockstreaming/eslint-config`  
-  `@m6web/eslint-plugin-react` becomes `@bedrockstreaming/eslint-plugin-react`  
-  `@m6web/eslint-plugin-vue` becomes `@bedrockstreaming/eslint-plugin-vue`
-
-  Note that the version 3.5.0 available through `@m6web` scope will also be available through `@bedrockstreaming` allowing people changing without moving to version 4.
-
 - **From _plugin_ to _config_**
 
   Because `@bedrockstreaming/eslint-plugin-react` and `@bedrockstreaming/eslint-plugin-vue` are just ESLint configuration and don't bring any plugin's feature (like creating rules), these two packages will be renamed as respectively `@bedrockstreaming/eslint-config-react` and `@bedrockstreaming/eslint-config-vue`.
@@ -55,6 +45,16 @@ The version 4 of `eslint-tools` introduces two importants structural changes:
   +  "extends": "@bedrockstreaming/react"
    }
   ```
+
+- **From _M6 WEB_ to _Bedrock Streaming_**
+
+  In the wake of renaming stuff from "m6web" to "bedrock streaming", the packages are now available under the NPM scope @bedrockstreaming instead of @m6web. So...
+
+  `@m6web/eslint-config` becomes `@bedrockstreaming/eslint-config`  
+  `@m6web/eslint-plugin-react` becomes `@bedrockstreaming/eslint-plugin-react`  
+  `@m6web/eslint-plugin-vue` becomes `@bedrockstreaming/eslint-plugin-vue`
+
+  Note that the version 3.5.0 previously available through `@m6web` scope will also be available through `@bedrockstreaming` allowing people changing without moving to version 4.
 
 ## Contributing
 
