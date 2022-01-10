@@ -1,0 +1,21 @@
+{
+  "name": "@bedrockstreaming/eslint-config-jest",
+  "version": "4.0.0",
+  "description": "Bedrock configuration of jest lint rules based on subset of eslint-plugin-jest",
+  "author": "Bedrock Streaming",
+  "homepage": "https://github.com/BedrockStreaming/eslint-tools/packages/eslint-config-jest/#readme",
+  "license": "MIT",
+  "main": "index.js",
+  "publishConfig": {
+    "registry": "https://registry.yarnpkg.com",
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/BedrockStreaming/eslint-tools.git"
+  },
+  "dependencies": {
+    "eslint": "^7.32.0",
+    "eslint-plugin-jest": "^25.3.4"
+  }
+}
