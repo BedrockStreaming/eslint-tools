@@ -51,8 +51,8 @@ The version 4 of `eslint-tools` introduces two importants structural changes:
   In the wake of renaming stuff from "m6web" to "bedrock streaming", the packages are now available under the NPM scope @bedrockstreaming instead of @m6web. So...
 
   `@m6web/eslint-config` becomes `@bedrockstreaming/eslint-config`  
-  `@m6web/eslint-plugin-react` becomes `@bedrockstreaming/eslint-plugin-react`  
-  `@m6web/eslint-plugin-vue` becomes `@bedrockstreaming/eslint-plugin-vue`
+  `@m6web/eslint-plugin-react` becomes `@bedrockstreaming/eslint-config-react`  
+  `@m6web/eslint-plugin-vue` becomes `@bedrockstreaming/eslint-config-vue`
 
   Note that the version 3.5.0 previously available through `@m6web` scope will also be available through `@bedrockstreaming` allowing people changing without moving to version 4.
 
