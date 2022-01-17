@@ -9,7 +9,7 @@ module.exports = {
   rules: {
     'no-param-reassign': ['error', { props: true, ignorePropertyModificationsFor: ['state'] }],
     'import/prefer-default-export': 'off',
-    'vue/max-attributes-per-line': [2, { singleline: 10 }],
+    'vue/max-attributes-per-line': ['error', { singleline: 10 }],
     'vue/html-closing-bracket-newline': ['error', { multiline: 'always' }],
     'vue/html-closing-bracket-spacing': ['error', { selfClosingTag: 'always' }],
   },
