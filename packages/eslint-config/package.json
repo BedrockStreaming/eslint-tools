@@ -14,6 +14,15 @@
   "resolutions": {
     "eslint-utils": "1.4.1"
   },
+  "keywords": [
+    "linting",
+    "eslint",
+    "bedrock",
+    "configuration",
+    "bedrockstreaming",
+    "airbnb",
+    "prettier"
+  ],
   "dependencies": {
     "@bedrockstreaming/prettier-config": "^4.0.0",
     "@typescript-eslint/eslint-plugin": "^4.33.0",

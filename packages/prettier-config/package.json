@@ -10,5 +10,14 @@
   "license": "MIT",
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "keywords": [
+    "linting",
+    "eslint",
+    "bedrock",
+    "configuration",
+    "bedrockstreaming",
+    "airbnb",
+    "prettier"
+  ]
 }
