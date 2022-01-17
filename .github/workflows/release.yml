@@ -1,0 +1,26 @@
+name: CI
+
+on:
+  workflow_dispatch:
+    inputs:
+      releaseParams:
+        description: 'Pass parameters to lerna publish (ex: major, minor, patch)'
+        required: false
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+    env:
+      NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+    steps:
+      - uses: actions/checkout@v2
+        with:
+          fetch-depth: 0
+      - name: Use Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 14
+          cache: 'yarn'
+      - run: yarn install
+      - run: yarn lerna version --yes --conventional-commits --create-release github ${{ github.event.inputs.releaseParams }}
+      - run: yarn lerna publish from-git --yes
