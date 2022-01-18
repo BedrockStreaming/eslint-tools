@@ -10,6 +10,15 @@
     "registry": "https://registry.yarnpkg.com",
     "access": "public"
   },
+  "keywords": [
+    "linting",
+    "eslint",
+    "bedrock",
+    "configuration",
+    "bedrockstreaming",
+    "airbnb",
+    "jest"
+  ],
   "repository": {
     "type": "git",
     "url": "git+https://github.com/BedrockStreaming/eslint-tools.git"
