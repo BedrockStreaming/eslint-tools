@@ -12,6 +12,7 @@ jobs:
     runs-on: ubuntu-latest
     env:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
+      GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
       - uses: actions/checkout@v2
         with:
@@ -21,6 +22,7 @@ jobs:
         with:
           node-version: 14
           cache: 'yarn'
+      - run: git config user.email "-" && git config user.name "🤖 Release Bot"
       - run: yarn install
       - run: yarn lerna version --yes --conventional-commits --create-release github ${{ github.event.inputs.releaseParams }}
       - run: yarn lerna publish from-git --yes
