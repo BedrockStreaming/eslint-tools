@@ -1,6 +1,6 @@
 {
   "name": "@bedrockstreaming/eslint-config-jest",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "Bedrock configuration of jest lint rules based on subset of eslint-plugin-jest",
   "author": "Bedrock Streaming",
   "homepage": "https://github.com/BedrockStreaming/eslint-tools/packages/eslint-config-jest/#readme",

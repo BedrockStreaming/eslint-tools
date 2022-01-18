@@ -1,6 +1,6 @@
 {
   "name": "@bedrockstreaming/eslint-config-react",
-  "version": "4.0.2",
+  "version": "4.0.3",
   "description": "ESLint config used in Bedrock Streaming's React projects",
   "repository": {
     "type": "git",
@@ -24,7 +24,7 @@
     "react"
   ],
   "dependencies": {
-    "@bedrockstreaming/eslint-config": "^4.0.2",
+    "@bedrockstreaming/eslint-config": "^4.0.3",
     "eslint": "^7.32.0",
     "eslint-config-airbnb": "^18.2.1",
     "eslint-config-airbnb-typescript": "^14.0.1",
