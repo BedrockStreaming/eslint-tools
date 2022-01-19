@@ -104,7 +104,7 @@ To test your changes there are two ways:
 
 In order to publish, owners of this repository can trigger the release Github action workflow.
 It will automatically check commit from master branch if you follow conventional commit names.
-Changelog will be publish on a Github Release.
+Changelog will be published on a Github Release.
 It will also publish all the code directly to NPM.
 
 [@bedrockstreaming/eslint-config]: packages/eslint-config/README.md
