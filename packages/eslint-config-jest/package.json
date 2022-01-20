@@ -17,7 +17,8 @@
     "configuration",
     "bedrockstreaming",
     "airbnb",
-    "jest"
+    "jest",
+    "testing-library"
   ],
   "repository": {
     "type": "git",
