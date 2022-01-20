@@ -20,7 +20,6 @@ It contains 4 packages:
 
   Contains ESLint rules for Vue projects. It uses [eslint-plugin-jest]'s plugin recommended rules.
 
-
 - [@bedrockstreaming/prettier-config]
 
   Contains the Prettier configuration used in the project [@bedrockstreaming/eslint-config].
