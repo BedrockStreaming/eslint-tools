@@ -106,18 +106,10 @@ To test your changes there are two ways:
 
 ### Publishing
 
-Once your changes will be merged on `master` you will be able to publish them to NPM.
-
-> **Note that you'll have to access to the @bedrockstreaming organization for that. Please contact the maintainers before.**.
-
-At the root of the project:
-
-- `npm login`
-- `yarn lerna publish`
-
-> :warning: Don't use `yarn lerna version`.
-
-> :warning: Don't upgrade lerna above `3.14.0`, it causes lerna publish to fail.
+In order to publish, owners of this repository can trigger the release Github action workflow.
+It will automatically check commit from master branch if you follow conventional commit names.
+Changelog will be published on a Github Release.
+It will also publish all the code directly to NPM.
 
 [@bedrockstreaming/eslint-config]: packages/eslint-config/README.md
 [@bedrockstreaming/eslint-config-react]: packages/eslint-config-react/README.md
