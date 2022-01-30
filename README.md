@@ -14,7 +14,11 @@ It contains 4 packages:
 
 - [@bedrockstreaming/eslint-config-vue]
 
-  Contains ESLint rules for Vue projects. It extends the configuration from [@bedrockstreaming/eslint-config] but also [eslint-plugin-vue]'s plugin recommended rules.
+  Contains ESLint rules for Jest projects. It extends the configuration from [@bedrockstreaming/eslint-config] but also [eslint-plugin-vue]'s plugin recommended rules.
+
+- [@bedrockstreaming/eslint-config-jest]
+
+  Contains ESLint rules for Vue projects. It uses [eslint-plugin-jest]'s plugin recommended rules.
 
 - [@bedrockstreaming/prettier-config]
 
@@ -119,6 +123,8 @@ At the root of the project:
 [@bedrockstreaming/eslint-config-react]: packages/eslint-config-react/README.md
 [@bedrockstreaming/eslint-config-vue]: packages/eslint-config-vue/README.md
 [@bedrockstreaming/prettier-config]: packages/prettier-config/README.md
+[@bedrockstreaming/eslint-config-jest]: packages/eslint-config-jest/README.md
 [eslint-config-airbnb-base]: https://www.npmjs.com/package/eslint-config-airbnb-base
 [eslint-config-airbnb]: https://www.npmjs.com/package/eslint-config-airbnb
 [eslint-plugin-vue]: https://www.npmjs.com/package/eslint-plugin-vue
+[eslint-plugin-jest]: https://www.npmjs.com/package/eslint-plugin-jest
