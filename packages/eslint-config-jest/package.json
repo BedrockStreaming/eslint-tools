@@ -17,7 +17,8 @@
     "configuration",
     "bedrockstreaming",
     "airbnb",
-    "jest"
+    "jest",
+    "testing-library"
   ],
   "repository": {
     "type": "git",
@@ -25,6 +26,8 @@
   },
   "dependencies": {
     "eslint": "^7.32.0",
-    "eslint-plugin-jest": "^25.3.4"
+    "eslint-plugin-jest": "^25.3.4",
+    "eslint-plugin-jest-dom": "^4.0.1",
+    "eslint-plugin-testing-library": "^5.0.3"
   }
 }

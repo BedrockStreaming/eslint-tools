@@ -2,6 +2,7 @@
 
 module.exports = {
   extends: ['plugin:jest/all'],
+  plugins: ['testing-library', 'jest-dom'],
   env: {
     'jest/globals': true,
   },
@@ -22,4 +23,10 @@ module.exports = {
     'jest/prefer-spy-on': 'off', // No way, we should avoid spyon
     'jest/no-conditional-expect': 'off', // a bit complex to fix with try catch
   },
+  overrides: [
+    {
+      files: ['**/__tests__/**/*.[jt]s?(x)', '**/?(*.)+(spec|test).[jt]s?(x)'],
+      extends: ['plugin:testing-library/react', 'plugin:jest-dom/recommended'],
+    },
+  ],
 };
