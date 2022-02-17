@@ -1,0 +1,6 @@
+{
+  "root": true,
+  "extends": ["@bedrockstreaming/vue/vue3", "@bedrockstreaming/vue/typescript"],
+  "parser": "vue-eslint-parser",
+  "parserOptions": { "project": "./tests/vue3/tsconfig.json" }
+}
