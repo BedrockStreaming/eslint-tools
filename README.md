@@ -2,8 +2,6 @@
 
 This monorepo aims to mutualize the ESLint and Prettier configurations used in all Bedrock Streaming projects.
 
-It contains 4 packages:
-
 - [@bedrockstreaming/eslint-config]
 
   Contains all the ESLint and Prettier base rules for any Javascript project. It extends the configuration provided by the [eslint-config-airbnb-base] module and adds or modifies some rules according to Bedrock Streaming projects needs (e.g. it sets lines to 120 characters instead of 80).
