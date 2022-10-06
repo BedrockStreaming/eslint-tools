@@ -2,5 +2,8 @@
   "dependencies": {
     "vue": "3.2.26",
     "vue-router": "4.0.12"
+  },
+  "devDependencies": {
+    "eslint": "8.24.0"
   }
 }

@@ -1,7 +1,4 @@
 {
-  "dependencies": {
-    "react": "17.0.2"
-  },
   "devDependencies": {
     "eslint": "8.24.0"
   }
