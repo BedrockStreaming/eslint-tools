@@ -21,9 +21,9 @@
     "url": "git+https://github.com/BedrockStreaming/eslint-tools.git"
   },
   "dependencies": {
-    "eslint-plugin-jest": "^25.3.4",
-    "eslint-plugin-jest-dom": "^4.0.1",
-    "eslint-plugin-testing-library": "^5.0.3"
+    "eslint-plugin-jest": "^27.1.1",
+    "eslint-plugin-jest-dom": "^4.0.2",
+    "eslint-plugin-testing-library": "^5.7.2"
   },
   "peerDependencies": {
     "eslint": "^8.24.0"
