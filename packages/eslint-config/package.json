@@ -27,7 +27,6 @@
     "@bedrockstreaming/prettier-config": "^4.0.4",
     "@typescript-eslint/eslint-plugin": "^4.33.0",
     "@typescript-eslint/parser": "^4.33.0",
-    "eslint": "^7.32.0",
     "eslint-config-airbnb-base": "^14.2.1",
     "eslint-config-airbnb-typescript": "^14.0.1",
     "eslint-config-prettier": "^8.3.0",
@@ -35,5 +34,8 @@
     "eslint-plugin-prettier": "^4.0.0",
     "prettier": "~2.4.1",
     "prettier-eslint-cli": "^5.0.1"
+  },
+  "peerDependencies": {
+    "eslint": "^7.32.0"
   }
 }
