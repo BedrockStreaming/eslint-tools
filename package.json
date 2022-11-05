@@ -14,10 +14,11 @@
   "resolutions": {
     "lodash": "4.17.12",
     "lodash.merge": "4.6.2",
+    "minimist": "1.2.6",
     "mixin-deep": "2.0.1",
     "set-value": "3.0.1",
     "js-yaml": "3.13.1",
-    "handlebars": "4.5.3"
+    "handlebars": "4.7.7"
   },
   "devDependencies": {
     "husky": "7.0.2",
