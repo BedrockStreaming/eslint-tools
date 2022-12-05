@@ -22,7 +22,7 @@
   "devDependencies": {
     "husky": "7.0.2",
     "lerna": "3.22.1",
-    "lint-staged": "11.2.3",
+    "lint-staged": "13.1.0",
     "typescript": "4.5.4"
   },
   "prettier": "@bedrockstreaming/prettier-config",
