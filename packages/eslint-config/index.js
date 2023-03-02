@@ -7,7 +7,7 @@ module.exports = {
     node: true,
   },
   rules: {
-    'prettier/prettier': ['error', prettierConfig],
+    // 'prettier/prettier': ['error', prettierConfig],
 
     // use "_this" as a  variable to pass "this" instance if it's needed
     'consistent-this': ['error', '_this'],
