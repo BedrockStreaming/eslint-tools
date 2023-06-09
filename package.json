@@ -3,9 +3,6 @@
   "description": "Bedrock Streaming's ESLint packages",
   "license": "MIT",
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
   "scripts": {
     "lint": "eslint .",
     "format": "prettier --write --ignore-unknown '**/*'",
