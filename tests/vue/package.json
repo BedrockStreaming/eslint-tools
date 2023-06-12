@@ -1,5 +1,6 @@
 {
   "dependencies": {
+    "@bedrockstreaming/eslint-config-vue": "workspace:*",
     "vue": "2.6.14",
     "vuex": "3.6.2"
   }
