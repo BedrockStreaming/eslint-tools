@@ -14,16 +14,19 @@ jobs:
       NPM_TOKEN: ${{ secrets.NPM_TOKEN }}
       GH_TOKEN: ${{ secrets.GITHUB_TOKEN }}
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
         with:
           fetch-depth: 0
+
+      - uses: pnpm/action-setup@v2
+
       - name: Use Node.js
-        uses: actions/setup-node@v2
+        uses: actions/setup-node@v3
         with:
           node-version: 14
-          cache: 'yarn'
+          cache: 'pnpm'
       - run: git config user.email "-" && git config user.name "🤖 Release Bot"
       - run: echo //registry.npmjs.org/:_authToken=${NPM_TOKEN} > .npmrc
-      - run: yarn install --frozen-lockfile
-      - run: yarn lerna version --yes --conventional-commits --create-release github ${{ github.event.inputs.releaseParams }}
-      - run: yarn lerna publish from-git --yes
+      - run: pnpm install --frozen-lockfile
+      - run: pnpm lerna version --yes --conventional-commits --create-release github ${{ github.event.inputs.releaseParams }}
+      - run: pnpm lerna publish from-git --yes

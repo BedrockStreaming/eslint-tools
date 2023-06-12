@@ -65,7 +65,7 @@ The version 4 of `eslint-tools` introduces two importants structural changes:
 Clone the repository and install dependencies:
 
 ```
-$ yarn install
+$ pnpm install
 ```
 
 ### Testing
@@ -77,10 +77,10 @@ To test your changes there are two ways:
   For instance, if you've made changes in the `eslint-config-react` package, execute the following command:
 
   ```
-  $ yarn eslint tests/react
+  $ pnpm eslint tests/react
   ```
 
-  Because `eslint-tools` uses for itself the configuration defined in the packages, you can simply launch the command `yarn lint` which will run ESLint on the whole project's files.
+  Because `eslint-tools` uses for itself the configuration defined in the packages, you can simply launch the command `pnpm lint` which will run ESLint on the whole project's files.
 
   If you need a concrete use case of a rule you set don't hesitate to update files in the `./tests` directory as needed.
 
@@ -91,13 +91,13 @@ To test your changes there are two ways:
   To do that, start by committing your changes on your branch (you won't have to push them) and execute the following command:
 
   ```
-  $ yarn lerna publish --no-push <pre-version>
+  $ pnpm lerna publish --no-push <pre-version>
   ```
 
   Example:
 
   ```
-  $ yarn lerna publish --no-push v4.3.0-beta.1
+  $ pnpm lerna publish --no-push v4.3.0-beta.1
   ```
 
   The `--no-push` option allows you to publish the pre-version without pushing anything. Lerna creates a "bumping" commit that changes versions contained in files like `package.json` or `lerna.json`. You can remove that commit before continuing.
