@@ -33,5 +33,8 @@
     "*.{js,json,md,yml}": [
       "prettier --write --ignore-unknown"
     ]
+  },
+  "engines": {
+    "node": ">=16"
   }
 }
